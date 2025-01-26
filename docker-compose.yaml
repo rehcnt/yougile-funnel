@@ -1,7 +1,7 @@
 services:
   ts-yougile:
     image: tailscale/tailscale:latest
-    container_name: ts-yougile-1
+    container_name: ts-yougile
     hostname: yg
     environment:
       - TS_AUTHKEY=${TS_KEY}
@@ -24,7 +24,7 @@ services:
       args:
         VERSION: ${YG_VERISON}
         EDITOR: ${EDITOR}
-    container_name: yougile-app-1
+    container_name: yougile-app
     network_mode: service:ts-yougile
     depends_on: 
       - ts-yougile

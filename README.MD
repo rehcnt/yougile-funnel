@@ -3,15 +3,16 @@
 TLS-сертификатом через черый ip-адрес. 
 
 1. Для начала вам надо зайти на [Tailscale](https://tailscale.com/) и зарегистрировать аккаунт:
-![alt text](image.png)
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-1.png?raw=true)
 
 2. Выбираем план для персонального использования:
-![alt text](image-2.png)
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-2.png?raw=true)
 
-3. Пропускаем шаг настройки , в нем нет необходимости:
-
+3. Пропускаем шаг настройки внизу страницы, в нем нет необходимости:
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-20-26%20(%D0%9A%D0%BE%D0%BF%D0%B8%D1%8F).png?raw=true)
 
 4. В Access controls нужно вставить этот шаблон (он лишь добавляет tag для более простого управления):
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-21-14.png?raw=true)
 
 ```json
 // Example/default ACLs for unrestricted connections.
@@ -70,6 +71,7 @@ TLS-сертификатом через черый ip-адрес.
 
 5.Внутри раздела DNS нужно:
 5.1. Добавить любой nameserver (без этого не будет работать DNS):
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/2025-01-27_01-44.jpg?raw=true)
 
 5.2. Включить HTTPS для выдачи сертификата:
 

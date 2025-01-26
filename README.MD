@@ -69,7 +69,8 @@ TLS-сертификатом через черый ip-адрес.
 
 ```
 
-5.Внутри раздела DNS нужно:
+5.Внутри раздела DNS нужно...
+
 5.1. Добавить любой nameserver (без этого не будет работать DNS):
 ![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/2025-01-27_01-44.jpg?raw=true)
 

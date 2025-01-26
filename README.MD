@@ -3,16 +3,16 @@
 TLS-сертификатом через черый ip-адрес. 
 
 1. Для начала вам надо зайти на [Tailscale](https://tailscale.com/) и зарегистрировать аккаунт:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-1.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-1.png?raw=true)
 
 2. Выбираем план для персонального использования:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-2.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-2.png?raw=true)
 
 3. Пропускаем шаг настройки внизу страницы, в нем нет необходимости:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-20-26%20(%D0%9A%D0%BE%D0%BF%D0%B8%D1%8F).png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-20-26%20(%D0%9A%D0%BE%D0%BF%D0%B8%D1%8F).png?raw=true)
 
 4. В Access controls нужно вставить этот шаблон (он лишь добавляет tag для более простого управления):
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-21-14.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-21-14.png?raw=true)
 
 ```json
 // Example/default ACLs for unrestricted connections.
@@ -71,18 +71,18 @@ TLS-сертификатом через черый ip-адрес.
 
 5.Внутри раздела DNS нужно:
 5.1. Добавить любой nameserver (без этого не будет работать DNS):
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/2025-01-27_01-44.jpg?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/2025-01-27_01-44.jpg?raw=true)
 
 5.2. Включить HTTPS для выдачи сертификата:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2003-12-13.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2003-12-13.png?raw=true)
 
 5.3. Включить более благозвучное название для нашего поддомена:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-37-57.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-37-57.png?raw=true)
 
 6. На этом базовая настройка Tailscale закончена и нам осталось лишь OAuth ключ:
 
 Внутри осталось нажать Generate Oauth client → выбрать Auth Keys, поставить галочку на Write → добавить tag:internet и нажать на Generate client, после чего сохранить ключ:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-25-32.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-25-32.png?raw=true)
 
 7. Теперь на Linux-хосте нужно выбрать папку и сделать в нее git clone:
 
@@ -99,11 +99,11 @@ sudo docker-compose up -d
 ```
 
 10. После сборки и запуска контейнера в панели Tailscale появится новое устройство с меткой Funnel и тэгом internet, по полному адресу которого можно перейти. Первая настройка сертификата займет несколько минут, однако после этого сложностей быть не должно:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2003-18-15.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2003-18-15.png?raw=true)
 
 11. В папке yougile-data будут находиться все необходимые файлы: база данных (database), база вложений (user-data) и файлы machine.key, license.key и conf.json.
 В conf.json и остается внести последнее изменение — ваш новый домен в mainPaigeUrl (без / в конце!), так превью картинок будут отображаться корректно:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-58-35.png)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-58-35.png)
 
 License.key остается пустым, пока его не заполнить. Тогда ключ передается в контейнер, а до этого момента может быть активна та тестовая лицензия, что вы активируете. 
 Machine.key же, напротив, заполняется на хосте из контейнера, обратно никак не передается. 

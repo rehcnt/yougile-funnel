@@ -1,0 +1,4 @@
+state/
+**/*.data
+yougile-data/user-data/*
+!yougile-data/user-data/*.gitkeep

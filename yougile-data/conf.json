@@ -13,7 +13,7 @@
   /**
    * URL that is used to access your YouGile server.
    */
-  "mainPageUrl": "https://yg.zuul-codlet.ts.net",
+  "mainPageUrl": "https://yougile.zuul-codlet.ts.net",
 
   "emailFrom": "\"YouGile\" <myemail@example.com>",
 

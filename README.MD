@@ -92,7 +92,7 @@ git clone https://github.com/rehcnt/yougile-funnel
 ```
 
 8. Зайти в папку и открыть файл .env. В нем надо только вставить ключ из Tailscale:
-![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-58-35.png?raw=true)
+![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-31-13.png?raw=true)
 
 9. После сохранения остается лишь выполнить внутри папки 
 ```bash

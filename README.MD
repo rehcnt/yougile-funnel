@@ -103,7 +103,7 @@ sudo docker-compose up -d
 
 11. В папке yougile-data будут находиться все необходимые файлы: база данных (database), база вложений (user-data) и файлы machine.key, license.key и conf.json.
 В conf.json и остается внести последнее изменение — ваш новый домен в mainPaigeUrl (без / в конце!), так превью картинок будут отображаться корректно:
-[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-58-35.png?raw=true)
+[](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-01-27%2002-58-35.png)
 
 License.key остается пустым, пока его не заполнить. Тогда ключ передается в контейнер, а до этого момента может быть активна та тестовая лицензия, что вы активируете. 
 Machine.key же, напротив, заполняется на хосте из контейнера, обратно никак не передается. 

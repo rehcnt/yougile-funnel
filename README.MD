@@ -2,10 +2,10 @@
 при помощи [Tailsclale funnel](https://tailscale.com/kb/1223/funnel) при минимальной настройке. Конфигурация позволяет получить доступ с готовыми доменом и 
 TLS-сертификатом через серый ip-адрес. 
 
-### Для начала вам надо зайти на [Tailscale](https://tailscale.com/) и зарегистрировать аккаунт:
+#### Для начала вам надо зайти на [Tailscale](https://tailscale.com/) и зарегистрировать аккаунт:
 ![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-1.png?raw=true)
 
-### Выбираем план для персонального использования:
+#### Выбираем план для персонального использования:
 ![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-2.png?raw=true)
 
 3. Пропускаем шаг настройки внизу страницы, в нем нет необходимости:

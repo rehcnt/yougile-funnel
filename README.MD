@@ -123,5 +123,5 @@ sudo docker-compose up -d
 >
 > Для обновления на последнюю версию нужно сделать:
 >```bash
->sudo docker-compose build --no-cache && sudo docker compose up -d
+>sudo docker-compose up --build --force-recreate
 >```

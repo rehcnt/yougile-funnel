@@ -1,6 +1,6 @@
 Это готовый докер, который позволяет развернуть [коробку Yougile](https://ru.yougile.com/self-hosted) на Linux-хосте с доступом в интернет 
 при помощи [Tailsclale funnel](https://tailscale.com/kb/1223/funnel) при минимальной настройке. Конфигурация позволяет получить доступ с готовыми доменом и 
-TLS-сертификатом через черый ip-адрес. 
+TLS-сертификатом через серый ip-адрес. 
 
 1. Для начала вам надо зайти на [Tailscale](https://tailscale.com/) и зарегистрировать аккаунт:
 ![](https://github.com/rehcnt/yougile-funnel/blob/main/screenshots/image-1.png?raw=true)

@@ -117,7 +117,7 @@ sudo docker-compose up -d
 
 > [!TIP]
 > Для перезапуска Yougile используется команда (если в sudo docker ps не определено другое имя):
-
+>
 >```bash
 >sudo docker restart yougile-app-1
 >```
